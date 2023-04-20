@@ -8,9 +8,7 @@ h2 {
   color: purple;
   font-size: 25px;
   font-weight: bold;
-  border-style: solid;
-  border-color: orange;
-  border-width: 1px;
+  border: 5px solid orange;
 }
 
 section {
