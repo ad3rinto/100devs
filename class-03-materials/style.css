@@ -1,6 +1,10 @@
+body {
+  font-family: "Ubuntu Condensed", sans-serif, "Rubik Wet Paint", cursive;
+}
+
 p {
   color: red;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 img {
