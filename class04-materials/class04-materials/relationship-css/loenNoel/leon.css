@@ -22,7 +22,7 @@ img {
 
 a {
   color: green;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .head-section {
@@ -57,10 +57,14 @@ li {
 .list-items {
   align-content: center;
   text-align: center;
-  text-decoration: underline;
+
   color: green;
   font-size: large;
 }
 p {
   font-size: 1.6em;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
