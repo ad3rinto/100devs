@@ -19,19 +19,17 @@ section {
   border-style: solid;
 }
 
-section,
-p {
+section > p {
   color: white;
 }
 
 footer {
   background-color: black;
   border-color: lightgreen;
-  border-style: solid;
+  border: 3px red dashed;
 }
 
-footer,
-p {
+footer > h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
