@@ -27,3 +27,7 @@ footer {
 h2 {
   text-decoration: line-through;
 }
+
+a {
+  text-decoration: none;
+}
