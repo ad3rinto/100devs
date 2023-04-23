@@ -1,6 +1,5 @@
 /* Please Make only Rhino and Zebra Blue */
-#rhino,
-#zebra {
+.fourLegs {
   color: blue;
 }
 /* Please Make only Hufflepuff Gold */
@@ -8,7 +7,10 @@
   color: gold;
 }
 /* Please select Duck with the highest level of specificity possible */
-.likesToQuack {
+h2.likesToQuack.likesToQuack {
   color: brown;
 }
 /* Please select Rhino with the highest level of specificity possible */
+h2#rhino.africa.fourLegs {
+  color: crimson;
+}
