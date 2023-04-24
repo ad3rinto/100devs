@@ -11,6 +11,7 @@ footer {
 section {
   height: 200px;
   margin: 2px;
+  /* width: 33%; */
 }
 
 .one {
@@ -21,19 +22,16 @@ section {
 .zero {
   background: crimson;
   float: left;
-  width: 33%;
 }
 
 .three {
   background: purple;
   float: left;
-  width: 33%;
 }
 
 .two {
   background: blue;
   float: left;
-  width: 33%;
 }
 img {
   height: 250px;
@@ -45,7 +43,7 @@ img {
 
 .img1 {
   float: left;
-  width: 33%;
+
   margin-left: 2px;
   /* margin-right: 2px; */
 }
