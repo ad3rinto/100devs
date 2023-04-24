@@ -1,0 +1,52 @@
+header {
+  background: pink;
+  height: 120px;
+}
+footer {
+  background: green;
+  height: 120px;
+  clear: left;
+}
+
+section {
+
+  height: 300px;
+  margin: 2px;
+
+}
+
+.one {
+  background: blue;
+  float: left;
+  width: 33%
+}
+
+.three {
+  background: purple;
+  float: left;
+  width: 33%
+}
+
+.two {
+  background: blue;
+  float: left;
+  width: 33%
+}
+ img {
+   height: 300px;
+   /* margin: 2px;
+   padding: 0px 10px 0px 10px; */
+ }
+
+ .img1 {
+   float: left;
+   width: 49.2% ;
+   margin-left: 2px;
+   margin-right: 3px;
+ }
+ .img2 {
+   float: left;
+   width: 49.2%;
+   margin-right: 0px;
+   margin-left: 14px;
+ }
