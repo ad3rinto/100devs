@@ -10,7 +10,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   border: gold 10px solid;
-  margin: 20 0;
+  margin: 20px 0;
 }
 /* Please make the spans have a thin black border, a little padding, and blue */
 span {
@@ -23,5 +23,5 @@ section {
   width: 25%;
   height: 200px;
   border: purple 2px solid;
-  text-align: center;
+  margin: 0 auto;
 }
