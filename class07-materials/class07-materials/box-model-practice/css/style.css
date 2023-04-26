@@ -21,6 +21,6 @@ section {
 /* Please make the spans have thin yellow borders and equal padding / margin on all sides */
 span {
   border: yellow solid 2px;
-  padding: 2px;
-  margin: auto;
+  padding: 4px;
+  margin: 4px;
 }
