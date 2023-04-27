@@ -1,0 +1,124 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 500px;
+  background: rgb(125, 132, 148);
+}
+
+h1 {
+  margin: 100px auto 5px auto;
+  font-size: 3.5em;
+  color: white;
+  width: 70%;
+}
+h2 {
+  margin: 100px auto 0 auto;
+  font-size: 2em;
+  color: black;
+  width: 60%;
+  text-align: center;
+}
+
+section > h2 + p {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  width: 70%;
+  margin: auto auto 70px auto;
+}
+
+header > p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  width: 70%;
+  margin: auto auto 70px auto;
+}
+
+header nav span {
+  display: block;
+  color: white;
+  width: 10%;
+  margin: 20px 5px 0px 20px;
+  float: left;
+  /* height: 10px;
+
+  padding-top: 20px;*/
+}
+
+.span2 {
+  color: white;
+  margin-left: 50%;
+  width: 10%;
+}
+
+button {
+  float: right;
+  margin: 20px;
+  background-color: white;
+}
+
+img {
+  margin: 20px auto;
+  width: 100%;
+  height: 250px;
+}
+.second {
+  height: 500px;
+  background-color: rgb(228, 231, 233);
+}
+
+.first {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+
+h2,
+p {
+  padding-bottom: 10px;
+}
+
+section.second section {
+  float: left;
+  width: 49%;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  padding: 0 10%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* @media screen and (max-width: 800px) {
+     section {
+         background: blue;
+     }
+ } */
