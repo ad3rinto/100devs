@@ -29,7 +29,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-  height: 500px;
+  height: 600px;
   background: rgb(125, 132, 148);
 }
 
@@ -40,7 +40,7 @@ h1 {
   width: 70%;
 }
 h2 {
-  margin: 100px auto 0 auto;
+  margin: auto;
   font-size: 2em;
   color: black;
   width: 60%;
@@ -95,7 +95,7 @@ button {
 
 section.third a {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   width: 20%;
   text-align: center;
 }
@@ -109,13 +109,17 @@ img {
 .second {
   height: 600px;
   background-color: rgb(228, 231, 233);
+  margin-top: 100px;
 }
 
 .first,
 .third {
-  height: 400px;
-  background-color: rgb(255, 255, 255);
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsbSUyMHNlYXxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 h2,
