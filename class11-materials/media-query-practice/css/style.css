@@ -41,40 +41,20 @@ main section,
 /*******************************************/
 
 /* On mobile, please make all sections stack  */
-@media screen and (max-width: 600px) {
-  main > section,
-  section.bottom {
+@media all and (max-width:500px) {
+  main section,
+  .bottom section {
     width: 100%;
     height: 200px;
-    float: left;
-    background-color: cornflowerblue;
   }
-  main,
-  .bottom {
-    float: none;
-    width: 100%;
-    height: 200px;
-    background-color: gray;
-  }
+  
 
-  .bottom > section {
-    float: none;
-    width: 100%;
-    height: 200px;
-    background-color: brown;
-  }
+  
 }
 /* On tablet, please make the sections in main stack  */
-@media screen and (max-width: 900px) and (min-width: 600px) {
-  main > section {
-    float: none;
-    width: 100%;
-  }
+
 }
 /* On laptop, please keep the normal layout, but everything should be light green */
-@media screen {
-  * {
-    background-color: lightgreen;
-  }
+
 }
 /* On larger screens, please keep the normal layout, but everything should be light blue */

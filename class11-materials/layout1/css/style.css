@@ -1,10 +1,20 @@
-/* Box Model Hack */
-* {
+body {
+  display: flex;
+}
+
+
+
+
+
+
+
+/* Box Model Hack
+
   box-sizing: border-box;
 }
 
 /* Clear fix hack */
-.clearfix:after {
+/* .clearfix:after {
   content: ".";
   display: block;
   clear: both;
@@ -15,24 +25,24 @@
 
 .clear {
   clear: both;
-}
+} */ 
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
+/* body {
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-nav,
+/* nav,
 main,
 aside {
   float: left;
-  width: 10%;
-}
+  width: 10%; */ */
+/* }
 main {
   width: 50%;
   padding: 7%;
@@ -45,7 +55,7 @@ aside {
 }
 nav {
   padding-top: 7%;
-}
+} */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
