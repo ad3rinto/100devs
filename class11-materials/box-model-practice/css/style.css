@@ -7,7 +7,7 @@ h1 {
 }
 /* Please give the h2 significant padding on the left and right, a red border on the left and right but the red must be the same from the mighty morphin power rangers logo, and an orange background, and the roboto font */
 h2 {
-  padding: 0 20%;
+  padding: 0 30%;
   border-left: red solid 3px;
   border-right: red solid 3px;
   background-color: orange;
@@ -22,7 +22,7 @@ section {
 }
 /* Please make the spans have thin Dodger Blue borders, padding on the bottom and right, and light red background */
 span {
-  border: blue solid 1px;
+  border: dodgerblue solid 2px;
   padding: 0 10px 10px 0;
-  background-color: rgb(216, 141, 141);
+  background-color: rgb(244, 134, 134);
 }

@@ -5,34 +5,34 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-main section, .bottom section{
+main section,
+.bottom section {
   width: 33.3333%;
   height: 300px;
   border: 1px solid black;
   float: left;
 }
-.bottom section{
+.bottom section {
   width: 50%;
 }
 
@@ -41,7 +41,26 @@ main section, .bottom section{
 /*******************************************/
 
 /* On mobile, please make all sections stack  */
+@media screen and (max-width: 600px) {
+  main > section,
+  section.bottom {
+    width: 100%;
+    height: 200px;
+    float: left;
+  }
+  main,
+  .bottom {
+    float: none;
+    width: 100%;
+    height: 200px;
+  }
 
+  .bottom > section {
+    float: none;
+    width: 100%;
+    height: 200px;
+  }
+}
 /* On tablet, please make the sections in main stack  */
 
 /* On laptop, please keep the normal layout, but everything should be light green */
