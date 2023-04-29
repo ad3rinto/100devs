@@ -69,3 +69,15 @@ section h2 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 500px) {
+  section,
+  section > h2 {
+    display: flex;
+    width: 30%;
+    height: auto;
+  }
+  h2 {
+    font-size: 0.7em;
+    padding: 10px;
+  }
+}
