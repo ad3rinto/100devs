@@ -14,11 +14,7 @@ h1,
 h2 {
   text-align: center;
 }
-img {
-  display: block;
-  height: 300px;
-  margin: 0 auto;
-}
+
 ul {
   width: 100px;
   height: 200px;
@@ -51,15 +47,15 @@ section {
 
 section h2 {
   display: flex;
-  padding: 10px 30px;
+  padding: 10px auto;
   background-color: white;
-  width: 28%;
+  width: 29%;
   justify-content: start;
-  /* justify-self: center; */
+  justify-self: center;
   /* border: 2px solid black; */
-  margin-left: 207px;
-  margin-top: 50px;
-  height: 70px;
+  margin: 40px auto;
+  margin-left: 160px;
+  height: 50px;
   border-radius: 8%;
 }
 
@@ -70,15 +66,32 @@ section h2 {
 /* ADDITIONAL STYLES
 /*******************************************/
 @media screen and (max-width: 500px) {
-  section,
   section > h2 {
-    display: block;
-    width: 60%;
-    height: auto;
-    background-size: 20%;
+    display: flex;
+    padding: 10px 30px;
+    background-color: white;
+    width: 50%;
+    justify-content: start;
+    justify-self: center;
+    /* border: 2px solid black; */
+    /* margin-left: 207px; */
+    margin: 22px auto 0 70px;
+    height: 30px;
+    border-radius: 8%;
+  }
+  section {
+    background-image: url("https://ik.imagekit.io/wsflvn81wdp/toys/7218204_R_Z001A-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 180px;
+    width: 40%;
+    margin: 25px auto;
   }
   h2 {
+    display: flex;
     font-size: 0.7em;
     padding: 10px;
+    margin: 0 auto;
   }
 }
