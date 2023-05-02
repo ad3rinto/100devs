@@ -1,46 +1,61 @@
-/* Box Model Hack */
-* {
+body {
+  display: flex;
+}
+
+
+
+
+
+
+
+/* Box Model Hack
+
   box-sizing: border-box;
 }
 
 /* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+/* .clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
-}
+  clear: both;
+} */ 
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+/* body {
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-nav,main,aside{
+/* nav,
+main,
+aside {
   float: left;
-  width: 10%;
-}
-main{
+  width: 10%; */ */
+/* }
+main {
   width: 50%;
+  padding: 7%;
+  height: 750px;
+  background-image: url("../../class-layout-photos/bbc-image.png");
 }
-aside{
+aside {
   width: 40%;
-} 
-
-
+  padding: 7%;
+}
+nav {
+  padding-top: 7%;
+} */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
