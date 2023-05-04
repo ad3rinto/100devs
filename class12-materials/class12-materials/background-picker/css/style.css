@@ -21,16 +21,17 @@ img {
 }
 ul {
   width: 99px;
-  height: 330px;
-  border: 3px solid black;
+  height: 210px;
+  border: 5px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
   margin-bottom: 5px;
 }
 li {
-  width: 94px;
-  height: 65px;
+  width: 90px;
+  height: 35px;
+  padding: 0 5px;
 }
 
 /******************************************
