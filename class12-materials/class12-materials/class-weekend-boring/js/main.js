@@ -6,7 +6,7 @@ function check() {
 
   //Conditionals go here
 
-  if (day === "Tuesday".toLowerCase() || day === "Thursday".toLowerCase()) {
+  if (day === "tuesday" || day === "thursday") {
     document.querySelector("#placeToSee").innerHTML = "Class day";
   } else if (day === "Monday".toLowerCase() || day === "Wednesday".toLowerCase() || day === "Friday".toLowerCase()) {
     document.querySelector("#placeToSee").innerHTML = "Boring Day";
