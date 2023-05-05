@@ -22,10 +22,10 @@ function run() {
   const lMidName = document.querySelector('#lastMiddle').value
   const lName = document.querySelector('#lastName').value
 
-  const yellText =  `${fName} ${fMidName} ${lMidName} ${lName}`
+  const yellText = `${fName} ${fMidName} ${lMidName} ${lName}`
 
   document.querySelector('#placeToYell').innerText = yellText
-
+  document.querySelector("#my-form").reset();
   let yellThis = new SpeechSynthesisUtterance(yellText);
 
   synth.speak(yellThis);
