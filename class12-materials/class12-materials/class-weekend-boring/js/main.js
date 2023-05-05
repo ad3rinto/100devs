@@ -7,9 +7,9 @@ function check() {
   //Conditionals go here
 
   if (day === "Tuesday".toLowerCase() || day === "Thursday".toLowerCase()) {
-    document.querySelector("#placeToSee").innerHTML = "Course day";
+    document.querySelector("#placeToSee").innerHTML = "Class day";
   } else if (day === "Monday".toLowerCase() || day === "Wednesday".toLowerCase() || day === "Friday".toLowerCase()) {
-    document.querySelector("#placeToSee").innerHTML = "Typical Week Day";
+    document.querySelector("#placeToSee").innerHTML = "Boring Day";
   } else {
     document.querySelector("#placeToSee").innerHTML = "Weekend Yayyyy!!!!!";
 
