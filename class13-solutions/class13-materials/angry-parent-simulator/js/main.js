@@ -21,12 +21,17 @@ function run() {
   const fMidName = document.querySelector('#firstMiddle').value
   const lMidName = document.querySelector('#lastMiddle').value
   const lName = document.querySelector('#lastName').value
+  if (fName !== "") {
+    const yellText = `${fName}, ${fMidName}, ${lMidName}- ${lName}`
 
-  const yellText = `${fName} ${fMidName} ${lMidName} ${lName}`
+    document.querySelector('#placeToYell').innerText = yellText
+    document.querySelector("#my-form").reset();
 
-  document.querySelector('#placeToYell').innerText = yellText
-  document.querySelector("#my-form").reset();
-  let yellThis = new SpeechSynthesisUtterance(yellText);
+    let yellThis = new SpeechSynthesisUtterance(yellText);
 
-  synth.speak(yellThis);
-}
+    synth.speak(yellThis);
+  } else {
+    document.querySelector('#placeToYell').innerText = "No name entered"
+    document.querySelector("#my-form").reset();
+  };
+};
