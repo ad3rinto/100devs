@@ -11,10 +11,15 @@ function transform () {
     //Obtain input
     const celciusTemp = Number(document.querySelector("#temp").value);
     //transform from celcius to Farenheit
-    const converterTemp = (celciusTemp*9/5) + 32
-    console.log(converterTemp)
+    if(Number.isInteger(celciusTemp)){
+        const converterTemp = (celciusTemp*9/5) + 32
+        console.log(converterTemp)
     // display answer in DOM
-    document.querySelector("#placeToYell").innerText = `The converted temperature is ${converterTemp}F degs` ;
+        document.querySelector("#placeToYell").innerText = `The converted temperature is ${converterTemp}F degs` ;
+    } else {
+        const result = "Invalid input"
+        document.querySelector("#placeToYell").innerText = result; 
+    }
 } 
     
 
