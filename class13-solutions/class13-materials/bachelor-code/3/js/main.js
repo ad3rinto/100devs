@@ -1,11 +1,22 @@
-const contestants = document.querySelectorAll('.contestant')
+// const contestants = document.querySelectorAll('.contestant')
 
-Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
+// Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
 
-function checkForRose(click){
-	if(click.target.classList.contains('rose')){
+// function checkForRose(click){
+// 	if(click.target.classList.contains('rose')){
+// 		document.querySelector('#nikki').classList.toggle('hidden')
+// 	}else{
+// 		alert("Wrong!");
+// 	}
+// }
+const test = document.querySelectorAll("h2")
+console.log(test)
+test.forEach((item) => item.addEventListener('click', checkForWinner))
+
+function checkForWinner(click) {
+	if (click.target.classList.contains('rose')) {
 		document.querySelector('#nikki').classList.toggle('hidden')
-	}else{
-		alert("Wrong!");
+	} else {
+		alert("Oyato")
 	}
 }
