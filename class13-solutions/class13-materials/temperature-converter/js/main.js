@@ -2,12 +2,12 @@
 
 
 //Throw in an even handler
-document.querySelector("#yell").addEventListener('click', transform);
+document.querySelector("#convert").addEventListener('click', convert);
 
 
 
 
-function transform () {
+function convert () {
     //Obtain input
     const celciusTemp = Number(document.querySelector("#temp").value);
     //transform from celcius to Farenheit

@@ -1,1 +1,8 @@
+img {
+  width: 440px;
+  height: 400px;
+}
 
+section {
+  display: flex;
+}
