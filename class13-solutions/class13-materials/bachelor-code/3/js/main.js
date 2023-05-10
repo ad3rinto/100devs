@@ -9,7 +9,7 @@
 // 		alert("Wrong!");
 // 	}
 // }
-const test = document.querySelectorAll("h2")
+const test = document.querySelectorAll("header >h2")
 console.log(test)
 test.forEach((item) => item.addEventListener('click', checkForWinner))
 
