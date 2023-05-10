@@ -32,3 +32,9 @@ function addTwoNumbers(num8, num9) {
 
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+const multByThree = (a, b, c) => {
+    let muilt = a * b * c;
+    if (muilt % 3 === 0) {
+        alert("Ziko")
+    }
+}
