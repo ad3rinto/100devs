@@ -30,8 +30,8 @@ addFifty = (r, g) => {
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 function checkMulti(j, k, l) {
     if ((j * k * l) % 3 === 0) {
-        console.log("Yes")
+        console.log("Yes, a Zebra of course ")
     } else {
-        console.log("No")
+        console.log("No, it is just a monkey")
     }
 }
