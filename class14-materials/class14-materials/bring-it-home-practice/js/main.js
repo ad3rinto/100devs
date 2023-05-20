@@ -22,7 +22,7 @@ function findMod(p, y) {
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
 addFifty = (r, g) => {
     if ((r + g) > 50) {
-        alert("Agbako")
+        alert("Agbako onigbinde")
     } else {
         alert("BS")
     }
