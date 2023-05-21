@@ -7,6 +7,8 @@ document.querySelector('#andiNext').addEventListener('click', andiNext)
 document.querySelector('#claireNext').addEventListener('click', claireNext)
 document.querySelector('#sharleenNext').addEventListener('click', sharleenNext)
 document.querySelector('#all').addEventListener('click', allDem)
+document.querySelector('#reset').addEventListener('click', resetAll)
+
 
 function andiNext() {
 	claire.classList.add('hidden')
@@ -30,4 +32,10 @@ function allDem() {
 	claire.classList.toggle('hidden')
 	sharleen.classList.toggle('hidden')
 	andi.classList.toggle('hidden')
+}
+
+function resetAll() {
+	claire.classList.add('hidden')
+	sharleen.classList.add('hidden')
+	andi.classList.add('hidden')
 }
