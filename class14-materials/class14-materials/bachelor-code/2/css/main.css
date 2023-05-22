@@ -1,3 +1,10 @@
-.hidden{
+/** @format */
+
+.hidden {
 	display: none;
+}
+
+img {
+	width: 300px;
+	height: 350px;
 }
