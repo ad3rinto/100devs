@@ -4,8 +4,11 @@ function addNum(num1, num2) {
 }
 
 //create a function that multiplys three numbers and console logs the product
-const multNumbers = (c, d, e) => {
+const multiNumbers = (c, d, e) => {
     console.log(c * d * e)
 
 }
 //create a function that divides two numbers and returns the ???
+const strangeFunction = (k, j) => {
+    return k % j
+}
