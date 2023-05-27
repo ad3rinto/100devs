@@ -9,6 +9,21 @@
 //--- Harder
 //On click of the h1
 
+// const checkAge2 = () => {
+//     let age = document.getElementById('danceDanceRevolution').value
+//     switch (age) {
+//         case (age < 16):
+//             document.getElementById('placement').innerText = 'You are not old enough to drive'
+
+//             break;
+
+//         default:
+//             document.getElementById('placement').innerText = 'You are not'
+
+//             break;
+//     }
+// }
+
 const checkAge = () => {
     let age = document.getElementById('danceDanceRevolution').value
     if (age < 16) {
