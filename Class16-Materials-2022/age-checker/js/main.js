@@ -27,18 +27,19 @@
 const checkAge = () => {
     let age = document.getElementById('danceDanceRevolution').value
     if (age < 16) {
-        document.getElementById('placement').innerText = 'You are not old enough to drive'
+        document.getElementById('placement').innerHTML = '<h2>You are not old enough to drive</h2>'
     } else if (age > 16 && age <= 18) {
-        document.getElementById('placement').innerText = `You can't hate from outside the club, because they can
-        \'t even get in`
+
+        document.getElementById('placement').innerHTML = `<h2>You can't hate from outside the club, because they can
+            \'t even get in</h2>`
     } else if (age < 21) {
-        document.getElementById('placement').innerText = `You can not drink`
+        document.getElementById('placement').innerHTML = `<h2>You can not drink</h2>`
     } else if (age < 25) {
-        document.getElementById('placement').innerText = `You can not rent affordable cars`
+        document.getElementById('placement').innerHTML = `<h2>You can not rent affordable cars</h2>`
     } else if (age < 30) {
-        document.getElementById('placement').innerText = `You can not rent fancy cars`
+        document.getElementById('placement').innerHTML = `<h2>You can not rent fancy cars</h2>`
     } else {
-        document.getElementById('placement').innerText = `Nothing more to look forward to mate`
+        document.getElementById('placement').innerHTML = `<h2>Nothing more to look forward to mate</h2>`
 
     }
     console.log(age)
