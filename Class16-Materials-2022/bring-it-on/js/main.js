@@ -34,6 +34,6 @@ function alert50(g, h) {
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 function takeWord(k, word) {
     for (let i = 0; i < k; i++) {
-        console.log(i, word)
+        console.log(i, word + "akin alabi")
     }
 }
