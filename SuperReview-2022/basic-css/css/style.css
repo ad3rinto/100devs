@@ -31,7 +31,7 @@ footer {
 	color: white;
 }
 
-footer h3 {
+footer > h3 {
 	font-family: "Roboto", sans-serif;
 	font-family: "Rubik Wet Paint", cursive;
 	font-family: "Ubuntu Condensed", sans-serif;
