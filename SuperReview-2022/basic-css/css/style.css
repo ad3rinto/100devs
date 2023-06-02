@@ -18,11 +18,12 @@ section {
 	height: 200px;
 	background-color: gray;
 	border: black solid 2px;
-}
-
-section p {
 	color: white;
 }
+
+/* section p {
+	color: white;
+} */
 
 footer {
 	background-color: black;
