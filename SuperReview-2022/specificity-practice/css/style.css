@@ -1,6 +1,18 @@
-/* Please Make only Rhino and Zebra Blue */
+/**
+ * Please Make only Rhino and Zebra Blue
+ *
+ * @format
+ */
+
+.africa {
+	color: blue;
+}
 
 /* Please Make only Hufflepuff Gold */
+
+#bestHouse {
+	color: gold;
+}
 
 /* Please select Duck with the highest level of specificity possible */
 

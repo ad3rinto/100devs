@@ -1,8 +1,9 @@
 /** @format */
 
-h2 {
+section article > h2 {
 	color: red;
 }
-section > h2 {
-	color: blue;
+
+section + article > h2 {
+	color: royalblue;
 }
