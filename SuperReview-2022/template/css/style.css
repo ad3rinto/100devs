@@ -1,16 +1,21 @@
-/* Box Model Hack */
+/**
+ * Box Model Hack
+ *
+ * @format
+ */
+
 * {
-     -moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 
 .clear {
@@ -22,21 +27,35 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+	height: 100px;
+	border: black solid 2px;
 }
 
 footer {
-
+	height: 100px;
+	border: black solid 2px;
+	clear: both;
 }
 
+section {
+	height: 250px;
+	border: solid pink 2px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.three {
+	float: left;
+	width: 33.3%;
+}
+
+.two {
+	float: left;
+	width: 50%;
+}
