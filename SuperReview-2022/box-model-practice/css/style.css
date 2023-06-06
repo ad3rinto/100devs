@@ -10,22 +10,25 @@
 
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
 h1 {
-	width: 30px;
+	font-size: 30px;
 	padding-left: 5px;
 	border: red solid 3px;
 }
 
 h2 {
-	width: 25px;
+	font-size: 25px;
+	border: gold solid 8px;
+	padding: 10px 0px;
+	margin: 15px 0px;
 }
 
 section {
 	width: 25%;
 	height: 200px;
 	text-align: center;
-	border: solid red 2px;
+	border: solid purple 2px;
 }
 
 span {
-	border: black solid 8px;
+	border: blue solid 8px;
 }
