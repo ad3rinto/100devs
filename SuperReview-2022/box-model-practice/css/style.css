@@ -26,9 +26,12 @@ section {
 	width: 25%;
 	height: 200px;
 	text-align: center;
+	margin: 0 auto;
 	border: solid purple 2px;
 }
 
 span {
-	border: blue solid 8px;
+	border: blue solid 1px;
+	padding: 5px;
+	color: blue;
 }
