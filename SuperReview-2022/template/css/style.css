@@ -27,35 +27,41 @@
 /*******************************************/
 
 body {
+	background-color: black;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-	height: 100px;
+	height: 170px;
 	border: black solid 2px;
+	background-color: coral;
 }
 
 footer {
-	height: 100px;
+	height: 150px;
 	border: black solid 2px;
 	clear: both;
+	background-color: black;
 }
 
 section {
 	height: 250px;
-	border: solid pink 2px;
+	border: solid rgb(8, 0, 1) 2px;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 .three {
 	float: left;
-	width: 33.3%;
+	width: 32.971%;
+	background-color: aqua;
+	margin: 3px;
 }
 
 .two {
 	float: left;
 	width: 50%;
+	background-color: grey;
 }
