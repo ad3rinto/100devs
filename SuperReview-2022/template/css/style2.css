@@ -35,7 +35,7 @@ body {
 header,
 footer {
 	height: 100px;
-	border: black solid 1px;
+	border: black solid 0.3px;
 }
 
 main,
@@ -46,8 +46,29 @@ main,
 section {
 	flex: auto;
 	height: 200px;
-	border: 1px black solid;
+	border: 0.3px black solid;
+}
+
+.bottom {
+	height: auto;
+}
+
+.bottomSec {
+	height: 200px;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media all and (max-width: 600px) {
+	main,
+	section {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+	section {
+		background-color: pink;
+	}
+}
