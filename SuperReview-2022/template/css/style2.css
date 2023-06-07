@@ -44,9 +44,9 @@ main,
 }
 
 section {
-	flex: 1;
-	border: 1px solid black;
+	flex: auto;
 	height: 200px;
+	border: 1px black solid;
 }
 /******************************************
 /* ADDITIONAL STYLES
