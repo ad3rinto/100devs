@@ -13,15 +13,15 @@ document.querySelector("#check").addEventListener('click', ageChecker);
 function ageChecker() {
     let age = document.querySelector("#danceDanceRevolution").value
     if (age < 16) {
-        console.log("You cannot drive")
+        document.querySelector("#place").innerText = "You cannot drive"
     } else if (age < 18) {
-        console.log("You can't hate from outside the club, because they can't even get in")
+        document.querySelector("#place").innerText = "You can't hate from outside the club, because they can't even get in";
     } else if (age < 21) {
-        console.log("You can't drink")
+        document.querySelector("#place").innerText = "You can't drink"
     } else if (age < 25) {
-        console.log("You can not rent fancy cars affordably")
+        document.querySelector("#place").innerText = "You can not rent fancy cars affordably"
     } else if (age >= 30) {
-        console.log("there is nothing left to look forward too")
+        document.querySelector("#place").innerText = "there is nothing left to look forward too"
     }
 
 }
