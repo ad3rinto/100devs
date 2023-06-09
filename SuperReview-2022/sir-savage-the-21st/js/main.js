@@ -11,6 +11,6 @@
 // }
 function check2() {
     for (let num = 0; num < 21; num++) {
-        document.querySelector("#savageSays").innerHTML += 21
+        document.querySelector("#savageSays").innerHTML += " 21"
     }
 }
