@@ -21,3 +21,9 @@ console.log(newNumArray)
 
 
 //Find the average of all the numbers from question three
+let total = 0;
+numArrays.forEach((item) =>
+    total += item)
+let theAve = total / numArrays.length
+
+console.log(theAve)
