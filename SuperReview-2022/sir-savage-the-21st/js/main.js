@@ -16,7 +16,8 @@ function check2() {
 }
 
 const loopFinder = (a) => {
-    for (let i = 1; i <= a; i++) {
+    for (let i = 1
+        ; i <= a; i++) {
         if ((i % 5 == 0) && (i % 3 == 0)) {
             console.log("fizzbuzz")
         } else if (i % 5 === 0) {
