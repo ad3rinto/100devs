@@ -9,15 +9,15 @@ for (let i = 0; i < bondMovies.length; i++) {
 let numArrays = [2, 4, 6, 66, 44, 34, 2, 8, 87, 8, 3];
 let newNumArray = [];
 
-// for (let i = 0; i < numArrays.length; i++) {
-//     newNumArray.push(numArrays[i] + 3)
+for (let i = 0; i < numArrays.length; i++) {
+    newNumArray.push(numArrays[i] + 30)
 
-// }
-// console.log(newNumArray)
-
-numArrays.forEach((item) =>
-    newNumArray.push(item) + 3)
+}
 console.log(newNumArray)
+
+// numArrays.forEach((item) =>
+//     newNumArray.push(item) + 1)
+// console.log(newNumArray)
 
 
 //Find the average of all the numbers from question three
