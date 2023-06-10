@@ -6,7 +6,7 @@ for (let i = 0; i < bondMovies.length; i++) {
 }
 //Create an array of numbers. Loop through the array and three to each number and replace the old number.
 
-let numArrays = [2, 4, 6, 66, 44, 34, 2, 8, 87, 8, 3];
+let numArrays = [2, 4, 6, 66, 44, 34, 2, 8, 87];
 let newNumArray = [];
 
 // for (let i = 0; i < numArrays.length; i++) {
@@ -15,13 +15,13 @@ let newNumArray = [];
 // }
 // console.log(newNumArray)
 
-numArrays.forEach((item) => {
-    newNumArray.push(item + 10)
+numArrays.forEach((item, i) => {
+    numArrays[i] = item + 3;
 }
 )
 
 
-console.log(newNumArray)
+console.log(numArrays)
 
 
 //Find the average of all the numbers from question three
