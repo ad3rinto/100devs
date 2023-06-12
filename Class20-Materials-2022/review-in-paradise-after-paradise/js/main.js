@@ -12,3 +12,14 @@ function arrayDefender(arr) {
         alert("Close in an hour")
     }
 }
+
+let bestColours = ["green", "blue", "black", "white"]
+
+let newSamples = [];
+
+bestColours.forEach((colour) => {
+
+    newSamples.push(colour + "ish")
+})
+
+console.log(newSamples)
