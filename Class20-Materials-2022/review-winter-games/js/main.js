@@ -1,15 +1,16 @@
 //Create a function that takes in an array of numbers. 
 //Return a new array containing every even number from the original array (do not use map or filter)
 
-let newList = [];
+
 
 function arraySelector(arr1) {
+    let evens = [];
     arr1.forEach(element => {
         if (element % 3 == 0) {
-            newList.push(element)
+            evens.push(element)
         }
     });
-    console.log(newList)
+    console.log(evens)
 
 }
 
