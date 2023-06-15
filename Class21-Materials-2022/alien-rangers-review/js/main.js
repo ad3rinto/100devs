@@ -23,4 +23,4 @@ const arrayChomper = (arr) => {
 }
 
 
-arrayChomper([34, 2, 44, 2, 55, 3, 21])
+arrayChomper([34, -2, -44, 2, 55, 3, 21, -34, -111, 32])
