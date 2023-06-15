@@ -7,8 +7,14 @@ let stopwatch = {
     shape: "circular",
     systemType: "manual",
 
-    sayTime() {
-        console.log("the time is now")
+    sayDay(a) {
+        console.log("the day is now" + " " + a)
+    },
+    sayTime(b) {
+        console.log("the time is now" + " " + b)
+    },
+    sayYear(c) {
+        console.log("the year is now" + " " + c)
     }
 
 
