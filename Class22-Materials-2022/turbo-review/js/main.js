@@ -25,9 +25,15 @@ function rockPaperScissors() {
 //Create a function that takes in a choice (rock, paper, or scissors) and determines if they won
 //a game of rock paper scissors against a bot using the above function
 
-function lottery(entry) {
-    if (entry == rockPaperScissors()) {
-        console.log("You are a winner")
+function lottery(playerChoice) {
+    let botChoice = rockPaperScissors();
+    if ((playerChoice == "rock" && botChoice == "scissors") ||
+        (playerChoice == "scissors" && botChoice == "paper") ||
+        (playerChoice == "paper" && botChoice == "rock")
+    ) {
+        console.log("You are the winner")
+    } else if (playerChoice == botChoice) {
+        console.log("This was a tie")
     } else {
         console.log("Try one more time")
     }
