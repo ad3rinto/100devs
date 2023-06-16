@@ -13,9 +13,9 @@
 // Create a function that returns rock, paper, or scissors as randomly as possible
 function rockPaperScissors() {
     let result = Math.random()
-    if (result > .6) {
+    if (result > .66) {
         return "paper"
-    } else if (result < .3) {
+    } else if (result < .33) {
         return "rock"
     } else {
         return "scissors"
