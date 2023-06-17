@@ -10,7 +10,7 @@ const mouse = {
     },
 
     makeMusic() {
-        console.log("Tra la la la la la")
+        console.log("Tra la la la la la, sing me a new song")
     },
 
     makeQuiet() {
