@@ -17,3 +17,15 @@ const mouse = {
         console.log("sheeeee")
     }
 }
+
+//another way to declare an object
+
+let cat = {};
+
+cat.sound = "meaoooow";
+cat.colour = "black and white";
+cat.shout = () => {
+    console.log("Na you go tire")
+}
+
+cat.numberOfLimbs = 4;
