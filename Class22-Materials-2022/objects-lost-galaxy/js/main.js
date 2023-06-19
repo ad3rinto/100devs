@@ -29,3 +29,20 @@ cat.shout = () => {
 }
 
 cat.numberOfLimbs = 4;
+
+
+
+//create object template
+
+function Animal(name, colour, speed, group) {
+    this.name = name
+    this.colour = colour
+    this.speed = speed
+    this.group = group
+
+    this.makeSomeNoise = function () {
+        alert("my name is " + this.name)
+    }
+}
+
+const dog = new Animal("Bingo", "white", "123", "canine")
