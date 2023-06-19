@@ -46,3 +46,5 @@ function Animal(name, colour, speed, group) {
 }
 
 const dog = new Animal("Bingo", "white", "123", "canine")
+
+console.log(`I am ${dog.name} and I can run as fast as ${dog.speed} m/sec`)
