@@ -1,5 +1,5 @@
 // *Variables*
-// Declare a variable and assign it to a sentance as a string. Alert if the sentance is a question
+// Declare a variable and assign it to a sentence as a string. Alert if the sentence is a question
 const sentence = "What is going on here"
 if (sentence.includes("?")) {
     alert("Eureka")
@@ -46,9 +46,7 @@ function gamePlay(choice) {
 //Print the results of each game to the console.
 
 multiPlay = (arr) => {
-    arr.forEach(element => {
-        gamePlay(element)
-    });
+    arr.forEach(element => gamePlay(element));
 }
 
 
