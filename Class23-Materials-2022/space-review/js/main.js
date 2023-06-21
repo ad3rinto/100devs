@@ -30,9 +30,17 @@ const squearer = (arr) => {
 const stringer = (str) => {
     let len = str.length;
     let newStr = "";
-    for (let i = len; i >= 0; i--) {
+    for (let i = len - 1; i >= 0; i--) {
         newStr += str[i]
-    } console.log(newStr)
+    } return newStr
 }
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
+
+const stringTaker = (str) => {
+    if (str === stringer(str)) {
+        console.log("string is " + str)
+        console.log("revstring is " + stringer(str))
+        alert("Eureka")
+    }
+}
