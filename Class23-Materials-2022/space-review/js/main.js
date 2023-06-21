@@ -42,5 +42,9 @@ const stringTaker = (str) => {
         console.log("string is " + str)
         console.log("revstring is " + stringer(str))
         alert("Eureka")
+    } else {
+        console.log("Not quite")
     }
 }
+
+stringTaker("Redivider")
