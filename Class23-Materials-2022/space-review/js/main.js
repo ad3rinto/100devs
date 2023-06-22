@@ -18,7 +18,7 @@ let change = myArray.reduce((acc, num) => acc += num)
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
-const squearer = (arr) => {
+const squarer = (arr) => {
     return (arr.map((item) => item ** 2))
 }
 
