@@ -36,3 +36,21 @@ const lulu = new Dog(3, "cavapoo", "golden brown", "gentle")
 
 
 console.log(lulu)
+
+
+//Create a pizza object that has four properties and three methods
+
+const pizza = {};
+pizza.shape = "circle";
+pizza.temp = "hot";
+pizza.crust = "thin";
+pizza.order = function () {
+    console.log("......Place order")
+}
+pizza.cancel = function () {
+    console.log("..........Cancelling order")
+}
+
+pizza.eat = function () {
+    console.log("Yayyyyyyyy")
+}
