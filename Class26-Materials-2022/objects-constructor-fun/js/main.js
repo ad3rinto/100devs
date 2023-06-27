@@ -6,17 +6,16 @@ class Fighter {
         this.speed = speed
         this.name = name
         this.specialMove = specialMove
+    }
+    shout() {
+        console.log("Ahuuaaaaaaaa")
+    }
 
-        this.shout = function () {
-            console.log("Ahuuaaaaaaaa")
-        }
+    jump() {
+        console.log("How high")
+    }
 
-        this.jump = function () {
-            console.log("How high")
-        }
-
-        this.kill = function () {
-            console.log(`Killed with my ${this.specialMove}`)
-        }
+    kill() {
+        console.log(`Killed with my ${this.specialMove}`)
     }
 }
