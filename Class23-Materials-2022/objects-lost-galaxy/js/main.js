@@ -35,7 +35,7 @@ function Dog(age, breed, colour, temperament) {
 const lulu = new Dog(3, "cavapoo", "golden brown", "gentle")
 
 
-console.log(lulu)
+// console.log(lulu)
 
 
 //Create a pizza object that has four properties and three methods
@@ -54,3 +54,20 @@ pizza.cancel = function () {
 pizza.eat = function () {
     console.log("Yayyyyyyyy")
 }
+
+class Pizza {
+    constructor(size, shape, flavoring, topping) {
+        this.size = size
+        this.shape = shape
+        this.flavoring = flavoring
+        this.topping = topping
+    }
+}
+
+
+let ricePizza = new Pizza("large", "circle", ["corn", "chicken"], "spicy")
+let suyaPizza = new Pizza("Medium", "square", ["beef-suya", "onions"], "dodo")
+
+
+console.log(ricePizza)
+console.log(suyaPizza)
