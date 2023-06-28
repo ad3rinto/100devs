@@ -14,9 +14,18 @@ const populate = () => {
 
             let len = data.drinks.length
             for (i = 0; i < len; i++) {
-                document.querySelector("h2").innerText = data.drinks[0].strDrink;
-                document.querySelector("p").innerText = data.drinks[0].strInstructions;
-                document.querySelector("img").src = data.drinks[0].strDrinkThumb;
+                let node = document.createElement("h2")
+                node.innerHTML = data.drinks[i].strDrink;
+                let inNode = document.createElement("p")
+                inNode.innerHTML = "<p>" + data.drinks[i].strInstructions + "</p>";
+                node.appendChild(inNode)
+                document.getElementById("here").appendChild(node)
+                let image = document.createElement("img")
+                image.src = data.drinks[i].strDrinkThumb
+                document.getElementById("here").appendChild(image)
+                // document.querySelector("h2").innerText = data.drinks[i].strDrink;
+                // document.querySelector("p").innerText = data.drinks[i].strInstructions;
+                // document.querySelector("img").src = data.drinks[i].strDrinkThumb;
             }
         })
 
