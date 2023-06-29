@@ -40,9 +40,7 @@ const populate = () => {
                 let image = document.createElement("img")
                 image.src = data.drinks[i].strDrinkThumb
                 document.querySelector("#here").appendChild(image)
-                // document.querySelector("h2").innerText = data.drinks[i].strDrink;
-                // document.querySelector("p").innerText = data.drinks[i].strInstructions;
-                // document.querySelector("img").src = data.drinks[i].strDrinkThumb;
+            
             }
         })
 
