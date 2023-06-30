@@ -1,4 +1,5 @@
 //The user will enter a cocktail. Get a cocktail name, photo, and instructions and place them in the DOM
+document.querySelector("button").addEventListener("click", populate)
 
 
 // let inputData = document.querySelector("input").value
@@ -21,7 +22,7 @@ const clearDrinksList = () => {
 }
 
 // function to enter a cocktail. Get a cocktail name, photo, and instructions and place them in the DOM
-const populate = () => {
+function populate() {
     clearDrinksList()
     let inputData = document.querySelector("input").value
     const url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${inputData}`;
@@ -40,7 +41,7 @@ const populate = () => {
                 let image = document.createElement("img")
                 image.src = data.drinks[i].strDrinkThumb
                 document.querySelector("#here").appendChild(image)
-            
+
             }
         })
 
@@ -53,4 +54,3 @@ const populate = () => {
 
 }
 
-document.querySelector("button").addEventListener("click", populate)
