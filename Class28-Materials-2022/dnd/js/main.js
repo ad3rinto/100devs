@@ -1,8 +1,14 @@
 //Example fetch using DnD5eAPI - place subclasses in ul
+
+// document.querySelector("button").addEventListener("click", reloader)
+
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch() {
-    const choice = document.querySelector('input').value
+
+    clearElements()
+
+    const choice = document.querySelector('input').value.toLowerCase()
     const url = `https://www.dnd5eapi.co/api/spells/${choice}`
 
     fetch(url)
@@ -24,3 +30,10 @@ function getFetch() {
         });
 }
 
+function clearElements() {
+    const mailList = document.querySelector("ul")
+    while (mailList.hasChildNodes()) {
+        mailList.removeChild(mailList.firstChild)
+    }
+
+}
