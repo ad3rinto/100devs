@@ -39,9 +39,6 @@ let yam = [1, 2, 3]
 
 
 const wasabi = [22, -6, 32, 82, 9, 25].filter((arr, i) => arr % i == 0)
-
-
-
 console.log(wasabi)
 
 
