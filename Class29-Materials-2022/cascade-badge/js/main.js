@@ -12,8 +12,8 @@ function listReverser(list) {
 
 function test(a, b) {
     if (a.length > 1 && b.length > 1) {
-        let sumA = a.reduce((acc, item) => acc += item ** 2)
-        let sumB = b.reduce((acc, item) => acc += item ** 2)
+        let sumA = a.reduce((acc, item) => acc += item ** 2, 0)
+        let sumB = b.reduce((acc, item) => acc += item ** 3, 0)
         if (sumA > sumB) {
             return true
         } else {
@@ -45,6 +45,6 @@ console.log(wasabi)
 //Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 // Return your answer as a number.
 
-let bilala = ["22", "6", 32, 82, 9, 25].reduce((acc, arr) => Number(acc) + Number(arr));
+let bilala = ["22", "6", 32, 82, 9, 25].reduce((acc, arr) => acc + Number(arr), 0);
 
 console.log(bilala)
