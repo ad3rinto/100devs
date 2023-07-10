@@ -45,6 +45,8 @@ console.log(wasabi)
 //Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 // Return your answer as a number.
 
-let bilala = ["22", "6", 32, "82", 9, 25].reduce((acc, arr) => acc + Number(arr), 0);
+function sumOfValues(list) {
+    return list.reduce((acc, arr) => acc + Number(arr), 0);
+}
 
-console.log(bilala)
+
