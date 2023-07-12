@@ -2,11 +2,18 @@
 
 class Animal {
     constructor(name, age) {
-        this.name = name
+        this._name = name
         this.age = age
         let image = "my picture"
-
+        this.ahem = function () {
+            console.log(image)
+        }
     }
+
+    get name() {
+        return this._name
+    }
+
     makeSound() {
         console.log(`I am a ${this.age} years old this year`)
     }
