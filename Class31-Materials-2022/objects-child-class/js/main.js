@@ -4,11 +4,14 @@ class Animal {
     constructor(name, age) {
         this.name = name
         this.age = age
+        let image = "my picture"
+
     }
     makeSound() {
-        console.log(`I am a ${this.name}`)
+        console.log(`I am a ${this.age} years old this year`)
     }
 }
+
 
 
 class Dog extends Animal {
@@ -23,3 +26,14 @@ class Dog extends Animal {
     }
 }
 
+class Cat extends Animal {
+    constructor(name, age, temperament, domesticated) {
+        super(name, age)
+        this.temperament = temperament
+        this.domesticated = domesticated
+    }
+    shout() {
+        super.makeSound()
+        console.log("AHA")
+    }
+}
