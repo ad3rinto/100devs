@@ -44,3 +44,11 @@ class Cat extends Animal {
         console.log("AHA")
     }
 }
+
+
+const billy = new Dog("Billy", 3, "pit-bull", "Black")
+const sally = new Cat("sally", 4, "gentle", false)
+
+
+console.log(billy.name)
+console.log(sally.name)
