@@ -1,21 +1,63 @@
-/******************************************
-/* CSS
-/*******************************************/
+/**
+ * ***************************************
+ * /* CSS
+ * /******************************************
+ *
+ * @format
+ */
 
 /* Box Model Hack */
-*{
-  box-sizing: border-box;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+img {
+	display: block;
+	margin: 0 auto;
+	height: 300px;
+	max-width: 70%;
+	padding-bottom: 0;
+	border-radius: 14px;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+}
+
+body > * {
+	background-color: rgb(178, 229, 236);
+}
+*/ .input {
+	display: flex;
+	flex: 1;
+}
+
+section {
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	margin: 10px 50px;
+	border-radius: 15px;
+}
+
+section:nth-child(2) {
+	padding-bottom: 0;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+li {
+	list-style: none;
+}
