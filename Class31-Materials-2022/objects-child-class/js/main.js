@@ -3,7 +3,7 @@
 class Animal {
     constructor(name, age) {
         this._name = name
-        this.age = age
+        this._age = age
         let image = "my picture"
         this.ahem = function () {
             console.log(image)
@@ -12,6 +12,10 @@ class Animal {
 
     get name() {
         return this._name
+    }
+
+    get age() {
+        return this._age
     }
 
     makeSound() {
