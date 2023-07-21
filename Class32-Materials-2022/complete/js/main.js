@@ -108,6 +108,9 @@ class Contractor {
         return this._role
 
     }
+    sayHello() {
+        console.log(`Hello, I am on the ${this._role} team at #100Devs and my name is ${this._name}`)
+    }
 
 
 
@@ -123,9 +126,12 @@ class Frontend extends Contractor {
     get stack() {
         return this._frontendstack
     }
-    sayHello() {
-        console.log(`Hello, I am on the ${this._role} team at #100Devs and I use ${this._frontendstack}`)
+
+    callhome() {
+        return "re"
     }
+
+
 }
 
 class Backend extends Contractor {
@@ -137,9 +143,6 @@ class Backend extends Contractor {
         return this._backendstack
     }
 
-    sayHello() {
-        console.log(`Hello, I am on the ${this._role} team at #100Devs and I use ${this._backendstack}`)
-    }
 
 }
 
