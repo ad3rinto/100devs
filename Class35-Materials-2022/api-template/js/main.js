@@ -4,9 +4,16 @@ const houseOne = () => {
 }
 
 const houseTwo = () => {
-    console.log("Paper delivered to house Two ")
+    setTimeout(() => console.log("Paper delivered to house Two "), 3000)
 }
 
 const houseThree = () => {
     console.log("Paper delivered to house Three ")
 }
+
+
+
+
+houseOne()
+houseTwo()
+houseThree()
