@@ -9,12 +9,12 @@ const rappers = {
         "birthName": "Sheyaa Bin Abraham-Joseph",
         "birthLocation": "London, England"
     },
-    "50 Cents": {
+    "50 cents": {
         "age": 43,
         "birthName": "Curtis Jackson",
         "birthLocation": "Compton, Los Angeles"
     },
-    "Snoop Dog": {
+    "snoop dog": {
         "age": 53,
         "birthName": "Inglewood, California",
         "birthLocation": "London, England"
@@ -39,7 +39,7 @@ app.get("/", (req, res) => {
 
 app.get("/api/:rapperName", (req, res) => {
     // console.log(req.event.status)
-    const targetRapper = req.params.rapperName
+    const targetRapper = req.params.rapperName.toLowerCase()
     if (targetRapper in rappers) {
         res.json(rappers[targetRapper])
     } else {

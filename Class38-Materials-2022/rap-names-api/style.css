@@ -1,0 +1,19 @@
+/** @format */
+/* section {
+	display: grid;
+}
+
+h1 {
+	color: red;
+	font-weight: bolder;
+	background-color: aqua;
+        */
+
+body {
+	background-color: aqua;
+}
+
+h1,
+header {
+	color: crimson;
+}
