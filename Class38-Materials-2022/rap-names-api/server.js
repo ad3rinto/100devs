@@ -21,6 +21,16 @@ const rappers = {
     }
 }
 
+const notFound = {
+    "Not found": {
+        "age": "Unknown",
+        "birthName": "Not found",
+        "birthLocation": "Unknown"
+    }
+}
+
+
+
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html")
 
@@ -33,7 +43,7 @@ app.get("/api/:rapperName", (req, res) => {
     if (targetRapper in rappers) {
         res.json(rappers[targetRapper])
     } else {
-        res.send("<h2>Rapper Details Not found</h2>")
+        res.json(notFound)
     }
 })
 
